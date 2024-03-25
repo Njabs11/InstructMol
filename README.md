@@ -69,12 +69,12 @@ Download the following weights and put them in the `checkpoints` folder.
 ```Shell
 # Under the checkpoints folder
 # get the weights for the vicuna model (https://huggingface.co/lmsys/vicuna-7b-v1.3)
-ln -s vicuna-v1-3-7b YOUR_PATH_TO_vicuna_v1_3_7b
+ln -s YOUR_PATH_TO_vicuna_v1_3_7b vicuna-v1-3-7b
 # get the weights for MoleculeSTM model
 mkdir MoleculeSTM
 wget https://huggingface.co/chao1224/MoleculeSTM/resolve/main/demo/demo_checkpoints_Graph/molecule_model.pth -P MoleculeSTM
 # download the weights for scibert_scivocab_uncased model (https://huggingface.co/allenai/scibert_scivocab_uncased)
-ln -s scibert_scivocab_uncased YOUR_PATH_TO_scibert_scivocab_uncased
+ln -s YOUR_PATH_TO_scibert_scivocab_uncased scibert_scivocab_uncased
 cd .. # back to the root directory
 ```
 * [Optional] Get graphmvp weights, please refer to [GraphMVP weights download guidance](https://github.com/chao1224/GraphMVP#for-graphmvp-pre-training). 
